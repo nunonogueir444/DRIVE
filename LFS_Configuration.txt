@@ -1,9 +1,0 @@
-ADD LFS to repo:
-    1 - enter git repo with git bash
-    2- run:
-        1 - git lfs track "*"
-        2 - git add .gitattributes
-        3 - git push
-
-REMOVE all LFS from repo
-git-lfs uninstall --local && echo " " > .gitattributes && git add --renormalize . && git commit -m "Restore sanity"
